@@ -42,7 +42,7 @@ Optional: Modify users’ project assignments
 
 2. Add access groups with **Assign group** or remove the user from an access group by clicking the three dot menu and choosing **Remove user**.
 
-User Flow
+User flow
 ~~~~~~~~~~~~~
 
 1. After they accept an invitation, users can log in through the `IBM Cloud portal <https://cloud.ibm.com/>`__.
@@ -135,7 +135,7 @@ Integrate the App ID instance as the ID provider for the administrator’s accou
 
 4. The default IdP URL is shown. Share this URL with users when they need to log in.
 
-Add Users
+Add users
 ~~~~~~~~~~
 
 When you use App ID as ID provider with the Cloud directory, you can create users in the IBM Cloud user interface.
@@ -191,7 +191,7 @@ In our example, we want to create the following setup:
 
 The steps to implement this setup are:
 
-1. The Cloud administrator creates an App ID instance and ensures that it is linked in the Cloud administrator’s account. The administrator notes the ID provider URL to share it with users.
+1. The Cloud administrator creates an App ID instance and ensures that it is linked in the Cloud administrator’s account. The administrator notes the ID provider (IDP) URL to share it with users.
 2. The Cloud administrator creates three service instances: ``QR-ml``, ``QR finance``, and ``QR-common``.
 3. The Cloud administrator creates a custom rule that includes the ``quantum-computing.job.delete`` action.
 4. The Cloud administrator creates two access groups:
@@ -314,7 +314,7 @@ User flow
    .. note::
       The administrator can always go to `Manage → Access (IAM) → Identity providers <https://cloud.ibm.com/iam/identity-providers>`__ to look up the ID provider URL.
 
-2. To work with Qiskit Runtime serive instances, users must create an API key by going to `Manage → Access (IAM) → API keys <https://cloud.ibm.com/iam/apikeys>`__.
+2. To work with Qiskit Runtime service instances, users must create an API key by going to `Manage → Access (IAM) → API keys <https://cloud.ibm.com/iam/apikeys>`__.
 
 3. For further information, users can review `Getting started, Step 2 <quickstart#install-packages>`__.
 
