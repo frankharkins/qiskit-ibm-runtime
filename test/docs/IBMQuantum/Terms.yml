@@ -10,24 +10,17 @@ swap:
   '(?:Ctrl|control)-click': press Ctrl and click
   'a lot(?: of)?': many|much
   'backward(?:-)?compatible': compatible with earlier versions
-  'bottom(?:-)?left': lower left|lower-left
-  'bottom(?:-)?right': lower right|lower-right
   'down(?:-)?level': earlier|previous|not at the latest level
   'mash(?: )?up': create
   'pop-up (?:blocker|killer)': software to block pop-up ad windows
   're(?:-)?occur': recur
   'sort(?:-|/)?merge': sort|merge
-  'top(?:-)?left': upper left|upper right|upper-left|upper-right
-  'top(?:-)?right': upper left|upper right|upper-left|upper-right
+  'do(?: )(?!not|so)': complete|perform
 
-  # These are currenly invalid patterns.
-  #
-  # dismiss (a window, a dialog box): close
-  # position (a cursor): move
-  # spawn (a process): create
-  # strike (a key): press|type
-  # touch (a key): press|type
-
+  bottom: end|last
+  below: following
+  above: previous
+  top: start|beginning|first
   a number of: several
   abort: cancel|stop
   administrate: administer
@@ -69,7 +62,6 @@ swap:
   desire: want|required
   destroy: delete from the database
   dismount: demount|unmount|remove
-  do: complete|perform
   downgrade: upgrade|fallback|fall back|rollback|roll back
   downward compatible: compatible with earlier versions
   drag and drop: drag
@@ -110,7 +102,6 @@ swap:
   irrecoverable: unrecoverable
   jar: compress|archive
   keep in mind: remember
-  laptop: notebook
   launch: start|open
   left-hand: left
   let's: let us
@@ -137,7 +128,6 @@ swap:
   parent task: parent process
   patch: fix|test fix|interim fix|fix pack|program temporary fix
   perimeter network: DMZ
-  phone: telephone|cell phone|mobile phone
   power down: turn on|turn off
   power off: turn on|turn off
   power on: turn on|turn off
@@ -185,7 +175,6 @@ swap:
   unzip: unzip
   upward compatible: compatible with later versions
   utilize: use
-  version: create a version|assign a version number
   versus: compared to
   via: through
   warning notice: attention notice
