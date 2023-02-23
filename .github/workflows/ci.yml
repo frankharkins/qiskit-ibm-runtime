@@ -57,6 +57,9 @@ jobs:
           pip install -U tox
           sudo apt install -y graphviz pandoc
           pip install -e .
+          snap install vale --edge
+      - name: Lint documentation
+        run: make docs-test
       - name: Build documentation
         run: tox -edocs
       - name: Upload documentation
