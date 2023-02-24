@@ -52,4 +52,4 @@ After the job completes, you can view the results.
 
 4. Verify on the `Instances page <https://cloud.ibm.com/quantum/instances>`__ that your service instance has been created.
 
-Qiskit Runtime service instances are IAM managed resources. Access can be shaped through terraform using IAM user policies. See the `IBM IAM user policy <https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/iam_user_policy>`__ for more details and examples.
+Qiskit Runtime service instances are Identity and Access Management (IAM) managed resources. Access can be shaped through terraform using IAM user policies. See the `IBM IAM user policy <https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/iam_user_policy>`__ for more details and examples.

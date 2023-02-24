@@ -191,7 +191,7 @@ In our example, we want to create the following setup:
 
 The steps to implement this setup are:
 
-1. The Cloud administrator creates an App ID instance and ensures that it is linked in the Cloud administrator’s account. The administrator notes the ID provider URL to share it with users.
+1. The Cloud administrator creates an App ID instance and ensures that it is linked in the Cloud administrator’s account. The administrator notes the ID provider (IDP) URL to share it with users.
 2. The Cloud administrator creates three service instances: ``QR-ml``, ``QR finance``, and ``QR-common``.
 3. The Cloud administrator creates a custom rule that includes the ``quantum-computing.job.delete`` action.
 4. The Cloud administrator creates two access groups:

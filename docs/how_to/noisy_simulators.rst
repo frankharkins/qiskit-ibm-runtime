@@ -390,7 +390,7 @@ All available resilience level configurations can be found
 .. image:: ../images/noisy-sim-estimator-noisy.png
 
 
-.. vale IBMQuantum.Acronyms = NO
+.. vale IBMQuantum.Definitions = NO
 
 Resilience levels are currently in beta so sampling overhead and
 solution quality will vary from circuit to circuit. New features,

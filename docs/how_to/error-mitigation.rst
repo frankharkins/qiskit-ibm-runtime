@@ -1,6 +1,8 @@
 Configure error mitigation
 =============================
 
+.. vale IBMQuantum.Definitions = NO
+
 Error mitigation techniques allow users to mitigate circuit errors by modeling the device noise at the time of execution. This typically results in quantum pre-processing overhead related to model training and classical post-processing overhead to mitigate errors in the raw results by using the generated model.  
 
 The error mitigation techniques built in to primitives are advanced resilience options.   To specify these options, use the ``resilience_level`` option when submitting your job.  
