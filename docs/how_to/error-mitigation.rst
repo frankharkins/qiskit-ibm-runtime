@@ -103,7 +103,7 @@ How this works:
 
 When estimating an unmitigated Pauli observable :math:`\langle P\rangle` the standard error in the estimated expectation value is given by :math:`\frac{1}{\sqrt{N_{\mbox{shots}}}}\left(1- \langle P\rangle^2\right)` where :math:`N_{\mbox{shots}}` is the number of shots used to estimate :math:`\langle P\rangle`. When applying PEC mitigation, the standard error becomes :math:`\sqrt{\frac{S}{N_{\mbox{samples}}}}\left(1- \langle P\rangle^2\right)` where :math:`N_{\mbox{samples}}` is the number of PEC samples.
 
-The sampling overhead scales exponentially with a parameter that characterizes the collective noise of the input circuit. As the Qiskit Runtime primitive learns the noise of your circuit, it will return metadata about the sampling overhead associated with that particular layer.  Let us label the overhead of layer :math:`l` as :math:`\gamma_l`. Then the total sampling overhead for mitigating your circuit is the product of all the layer overheads, that is:
+The sampling overhead scales exponentially with a parameter that characterizes the collective noise of the input circuit. As the Qiskit Runtime primitive learns the noise of your circuit, it will return metadata about the sampling overhead associated with that particular layer.  Let's label the overhead of layer :math:`l` as :math:`\gamma_l`. Then the total sampling overhead for mitigating your circuit is the product of all the layer overheads, that is:
 
 :math:`S = \prod_l \gamma_l`
 

@@ -60,7 +60,7 @@ Filter backends
 
 You may also optionally filter the set backends, by passing arguments that query the backend's configuration, status, or properties. For more general filters, you can make advanced functions using a lambda function. Refer to the API documentation for more details.
 
-Let us try getting only backends that fit these criteria:
+Let's try getting only backends that fit these criteria:
 
 * Are real quantum devices (``simulator=False``)
 * Are currently operational (``operational=True``)

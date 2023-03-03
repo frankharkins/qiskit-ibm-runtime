@@ -279,7 +279,7 @@ With Vale installed, run the following command
 make docs-test
 ```
 
-this test also runs on CI and will fail if Vale encounters any spelling
+This test also runs on CI and will fail if Vale encounters any spelling
 mistakes. To add a word to the dictionary, add it to
 `test/docs/dictionary.txt`.
 

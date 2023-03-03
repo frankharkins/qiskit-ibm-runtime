@@ -15,7 +15,7 @@ First, configure some settings in the administrator’s Identity and Access Mana
 
 .. _create-group-org:
 
-(Optional) create resource groups
+(Optional) Create resource groups
 ---------------------------------
 
 Skip this step if you are using access groups that directly reference Qiskit Runtime service instances.

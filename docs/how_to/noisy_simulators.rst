@@ -1,7 +1,7 @@
 Noisy simulators in Qiskit Runtime
 ==================================
 
-This notebook shows how to setup ``ibmq_qasm_simulator`` and map a basic noise
+This notebook shows how to set up ``ibmq_qasm_simulator`` and map a basic noise
 model for an IBM Quantum hardware device in **Qiskit Runtime**, and use this
 noise model to perform noisy simulations of ``QuantumCircuits`` using
 ``Sampler`` and ``Estimator`` to study the effects of errors which occur on
