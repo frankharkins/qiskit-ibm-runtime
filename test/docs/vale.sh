@@ -4,9 +4,9 @@ cd ./docs
 
 vale .
 
-notebooks=$(find . -name "*.ipynb" -not -name "*checkpoint*")
+echo
+echo "Linting notebooks using nbQA:"
 
-for notebook in ${notebooks}
-do
-  python -m nbqa vale ${notebook} --nbqa-shell --nbqa-md
-done
+notebooks=$(find . -name "*.ipynb" -not -name "*checkpoint*" -not -path "./_**")
+
+python -m nbqa vale ${notebooks} --nbqa-shell --nbqa-md

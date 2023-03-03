@@ -1,7 +1,7 @@
 Manage users
 ======================
 
-You can manage IBM Cloud users or ID provider users.  Follow the instructions in the relevant section, depending on your setup. 
+You can manage IBM Cloud users or ID provider (IDP) users.  Follow the instructions in the relevant section, depending on your setup. 
 
 * :ref:`cloud-users`
 * :ref:`provider-cloud`
