@@ -11,7 +11,7 @@ Set up your local development environment
 -----------------------------------------
 
 This tutorial requires a Qiskit Runtime service instance to be setup. If
-you haven’t done so already, please follow `these
+you haven’t done so already, follow `these
 steps <https://qiskit.org/documentation/partners/qiskit_ibm_runtime/getting_started.html>`__
 to set one up.
 
