@@ -15,7 +15,6 @@ exceptions:
   - IBM Quantum
   - Qiskit
   - Runtime
-  - qiskit-ibm-runtime API reference
   - Sampler
   - Estimator
   - Terraform
