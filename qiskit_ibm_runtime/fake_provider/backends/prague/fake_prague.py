@@ -25,4 +25,4 @@ class FakePrague(fake_backend.FakeBackendV2):
     dirname = os.path.dirname(__file__)  # type: ignore
     conf_filename = "conf_prague.json"  # type: ignore
     props_filename = "props_prague.json"  # type: ignore
-    backend_name = "fake_prague"  # type: ignore
+    backend_name = "ibm_prague"  # type: ignore

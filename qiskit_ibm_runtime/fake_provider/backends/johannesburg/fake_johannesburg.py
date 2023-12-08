@@ -35,7 +35,7 @@ class FakeJohannesburgV2(fake_backend.FakeBackendV2):
     dirname = os.path.dirname(__file__)  # type: ignore
     conf_filename = "conf_johannesburg.json"  # type: ignore
     props_filename = "props_johannesburg.json"  # type: ignore
-    backend_name = "fake_johannesburg"  # type: ignore
+    backend_name = "ibm_johannesburg"  # type: ignore
 
 
 class FakeJohannesburg(fake_qasm_backend.FakeQasmBackend):
@@ -55,4 +55,4 @@ class FakeJohannesburg(fake_qasm_backend.FakeQasmBackend):
     dirname = os.path.dirname(__file__)  # type: ignore
     conf_filename = "conf_johannesburg.json"  # type: ignore
     props_filename = "props_johannesburg.json"  # type: ignore
-    backend_name = "fake_johannesburg"  # type: ignore
+    backend_name = "ibm_johannesburg"  # type: ignore

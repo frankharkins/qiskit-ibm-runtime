@@ -35,7 +35,7 @@ class FakeAlmadenV2(fake_backend.FakeBackendV2):
     dirname = os.path.dirname(__file__)  # type: ignore
     conf_filename = "conf_almaden.json"  # type: ignore
     props_filename = "props_almaden.json"  # type: ignore
-    backend_name = "fake_almaden"  # type: ignore
+    backend_name = "ibm_almaden"  # type: ignore
 
 
 class FakeAlmaden(fake_qasm_backend.FakeQasmBackend):
@@ -55,4 +55,4 @@ class FakeAlmaden(fake_qasm_backend.FakeQasmBackend):
     dirname = os.path.dirname(__file__)  # type: ignore
     conf_filename = "conf_almaden.json"  # type: ignore
     props_filename = "props_almaden.json"  # type: ignore
-    backend_name = "fake_almaden"  # type: ignore
+    backend_name = "ibm_almaden"  # type: ignore

@@ -37,7 +37,7 @@ class FakeCambridgeV2(fake_backend.FakeBackendV2):
     dirname = os.path.dirname(__file__)  # type: ignore
     conf_filename = "conf_cambridge.json"  # type: ignore
     props_filename = "props_cambridge.json"  # type: ignore
-    backend_name = "fake_cambridge"  # type: ignore
+    backend_name = "ibm_cambridge"  # type: ignore
 
 
 class FakeCambridge(fake_qasm_backend.FakeQasmBackend):
@@ -59,7 +59,7 @@ class FakeCambridge(fake_qasm_backend.FakeQasmBackend):
     dirname = os.path.dirname(__file__)  # type: ignore
     conf_filename = "conf_cambridge.json"  # type: ignore
     props_filename = "props_cambridge.json"  # type: ignore
-    backend_name = "fake_cambridge"  # type: ignore
+    backend_name = "ibm_cambridge"  # type: ignore
 
 
 class FakeCambridgeAlternativeBasis(FakeCambridge):

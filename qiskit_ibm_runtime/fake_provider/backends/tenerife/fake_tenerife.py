@@ -42,7 +42,7 @@ class FakeTenerife(FakeBackend):
         cmap = [[1, 0], [2, 0], [2, 1], [3, 2], [3, 4], [4, 2]]
 
         configuration = QasmBackendConfiguration(
-            backend_name="fake_tenerife",
+            backend_name="ibm_tenerife",
             backend_version="0.0.0",
             n_qubits=5,
             basis_gates=["u1", "u2", "u3", "cx", "id"],

@@ -25,7 +25,7 @@ class FakeBelemV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_belem.json"  # type: ignore
     props_filename = "props_belem.json"  # type: ignore
     defs_filename = "defs_belem.json"  # type: ignore
-    backend_name = "fake_belem"  # type: ignore
+    backend_name = "ibm_belem"  # type: ignore
 
 
 class FakeBelem(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeBelem(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_belem.json"  # type: ignore
     props_filename = "props_belem.json"  # type: ignore
     defs_filename = "defs_belem.json"  # type: ignore
-    backend_name = "fake_belem"  # type: ignore
+    backend_name = "ibm_belem"  # type: ignore

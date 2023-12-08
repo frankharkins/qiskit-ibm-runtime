@@ -25,7 +25,7 @@ class FakeWashingtonV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_washington.json"  # type: ignore
     props_filename = "props_washington.json"  # type: ignore
     defs_filename = "defs_washington.json"  # type: ignore
-    backend_name = "fake_washington"  # type: ignore
+    backend_name = "ibm_washington"  # type: ignore
 
 
 class FakeWashington(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeWashington(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_washington.json"  # type: ignore
     props_filename = "props_washington.json"  # type: ignore
     defs_filename = "defs_washington.json"  # type: ignore
-    backend_name = "fake_washington"  # type: ignore
+    backend_name = "ibm_washington"  # type: ignore

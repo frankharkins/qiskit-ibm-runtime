@@ -25,7 +25,7 @@ class FakeMontrealV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_montreal.json"  # type: ignore
     props_filename = "props_montreal.json"  # type: ignore
     defs_filename = "defs_montreal.json"  # type: ignore
-    backend_name = "fake_montreal"  # type: ignore
+    backend_name = "ibm_montreal"  # type: ignore
 
 
 class FakeMontreal(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeMontreal(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_montreal.json"  # type: ignore
     props_filename = "props_montreal.json"  # type: ignore
     defs_filename = "defs_montreal.json"  # type: ignore
-    backend_name = "fake_montreal"  # type: ignore
+    backend_name = "ibm_montreal"  # type: ignore

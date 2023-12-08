@@ -24,7 +24,7 @@ class FakeRochesterV2(fake_backend.FakeBackendV2):
     dirname = os.path.dirname(__file__)  # type: ignore
     conf_filename = "conf_rochester.json"  # type: ignore
     props_filename = "props_rochester.json"  # type: ignore
-    backend_name = "fake_rochester"  # type: ignore
+    backend_name = "ibm_rochester"  # type: ignore
 
 
 class FakeRochester(fake_qasm_backend.FakeQasmBackend):
@@ -33,4 +33,4 @@ class FakeRochester(fake_qasm_backend.FakeQasmBackend):
     dirname = os.path.dirname(__file__)  # type: ignore
     conf_filename = "conf_rochester.json"  # type: ignore
     props_filename = "props_rochester.json"  # type: ignore
-    backend_name = "fake_rochester"  # type: ignore
+    backend_name = "ibm_rochester"  # type: ignore

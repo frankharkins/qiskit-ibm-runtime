@@ -115,7 +115,7 @@ class FakeTokyo(FakeBackend):
         ]
 
         configuration = QasmBackendConfiguration(
-            backend_name="fake_tokyo",
+            backend_name="ibm_tokyo",
             backend_version="0.0.0",
             n_qubits=20,
             basis_gates=["u1", "u2", "u3", "cx", "id"],

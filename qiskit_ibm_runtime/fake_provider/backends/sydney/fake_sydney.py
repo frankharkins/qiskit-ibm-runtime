@@ -25,7 +25,7 @@ class FakeSydneyV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_sydney.json"  # type: ignore
     props_filename = "props_sydney.json"  # type: ignore
     defs_filename = "defs_sydney.json"  # type: ignore
-    backend_name = "fake_sydney"  # type: ignore
+    backend_name = "ibm_sydney"  # type: ignore
 
 
 class FakeSydney(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeSydney(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_sydney.json"  # type: ignore
     props_filename = "props_sydney.json"  # type: ignore
     defs_filename = "defs_sydney.json"  # type: ignore
-    backend_name = "fake_sydney"  # type: ignore
+    backend_name = "ibm_sydney"  # type: ignore

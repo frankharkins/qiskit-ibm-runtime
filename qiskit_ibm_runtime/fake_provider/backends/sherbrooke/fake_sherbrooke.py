@@ -25,4 +25,4 @@ class FakeSherbrooke(fake_backend.FakeBackendV2):
     conf_filename = "conf_sherbrooke.json"  # type: ignore
     props_filename = "props_sherbrooke.json"  # type: ignore
     defs_filename = "defs_sherbrooke.json"  # type: ignore
-    backend_name = "fake_sherbrooke"  # type: ignore
+    backend_name = "ibm_sherbrooke"  # type: ignore

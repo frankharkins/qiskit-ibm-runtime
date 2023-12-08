@@ -25,7 +25,7 @@ class FakeValenciaV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_valencia.json"  # type: ignore
     props_filename = "props_valencia.json"  # type: ignore
     defs_filename = "defs_valencia.json"  # type: ignore
-    backend_name = "fake_valencia"  # type: ignore
+    backend_name = "ibm_valencia"  # type: ignore
 
 
 class FakeValencia(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeValencia(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_valencia.json"  # type: ignore
     props_filename = "props_valencia.json"  # type: ignore
     defs_filename = "defs_valencia.json"  # type: ignore
-    backend_name = "fake_valencia"  # type: ignore
+    backend_name = "ibm_valencia"  # type: ignore

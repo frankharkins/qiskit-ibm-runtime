@@ -33,7 +33,7 @@ class FakePoughkeepsieV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_poughkeepsie.json"  # type: ignore
     props_filename = "props_poughkeepsie.json"  # type: ignore
     defs_filename = "defs_poughkeepsie.json"  # type: ignore
-    backend_name = "fake_poughkeepsie"  # type: ignore
+    backend_name = "ibm_poughkeepsie"  # type: ignore
 
 
 class FakePoughkeepsie(FakeBackend):
@@ -102,7 +102,7 @@ class FakePoughkeepsie(FakeBackend):
         ]
 
         configuration = QasmBackendConfiguration(
-            backend_name="fake_poughkeepsie",
+            backend_name="ibm_poughkeepsie",
             backend_version="0.0.0",
             n_qubits=20,
             basis_gates=["u1", "u2", "u3", "cx", "id"],

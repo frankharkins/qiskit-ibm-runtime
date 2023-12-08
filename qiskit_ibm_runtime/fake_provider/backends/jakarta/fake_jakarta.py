@@ -25,7 +25,7 @@ class FakeJakartaV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_jakarta.json"  # type: ignore
     props_filename = "props_jakarta.json"  # type: ignore
     defs_filename = "defs_jakarta.json"  # type: ignore
-    backend_name = "fake_jakarta"  # type: ignore
+    backend_name = "ibm_jakarta"  # type: ignore
 
 
 class FakeJakarta(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeJakarta(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_jakarta.json"  # type: ignore
     props_filename = "props_jakarta.json"  # type: ignore
     defs_filename = "defs_jakarta.json"  # type: ignore
-    backend_name = "fake_jakarta"  # type: ignore
+    backend_name = "ibm_jakarta"  # type: ignore

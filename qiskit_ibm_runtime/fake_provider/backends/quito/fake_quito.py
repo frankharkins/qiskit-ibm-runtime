@@ -25,7 +25,7 @@ class FakeQuitoV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_quito.json"  # type: ignore
     props_filename = "props_quito.json"  # type: ignore
     defs_filename = "defs_quito.json"  # type: ignore
-    backend_name = "fake_quito"  # type: ignore
+    backend_name = "ibm_quito"  # type: ignore
 
 
 class FakeQuito(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeQuito(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_quito.json"  # type: ignore
     props_filename = "props_quito.json"  # type: ignore
     defs_filename = "defs_quito.json"  # type: ignore
-    backend_name = "fake_quito"  # type: ignore
+    backend_name = "ibm_quito"  # type: ignore

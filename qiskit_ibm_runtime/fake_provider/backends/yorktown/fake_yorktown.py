@@ -33,7 +33,7 @@ class FakeYorktownV2(fake_backend.FakeBackendV2):
     dirname = os.path.dirname(__file__)  # type: ignore
     conf_filename = "conf_yorktown.json"  # type: ignore
     props_filename = "props_yorktown.json"  # type: ignore
-    backend_name = "fake_yorktown"  # type: ignore
+    backend_name = "ibm_yorktown"  # type: ignore
 
 
 class FakeYorktown(fake_qasm_backend.FakeQasmBackend):
@@ -51,4 +51,4 @@ class FakeYorktown(fake_qasm_backend.FakeQasmBackend):
     dirname = os.path.dirname(__file__)  # type: ignore
     conf_filename = "conf_yorktown.json"  # type: ignore
     props_filename = "props_yorktown.json"  # type: ignore
-    backend_name = "fake_yorktown"  # type: ignore
+    backend_name = "ibm_yorktown"  # type: ignore

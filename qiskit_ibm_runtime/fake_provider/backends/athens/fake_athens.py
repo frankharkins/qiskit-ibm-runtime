@@ -25,7 +25,7 @@ class FakeAthensV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_athens.json"  # type: ignore
     props_filename = "props_athens.json"  # type: ignore
     defs_filename = "defs_athens.json"  # type: ignore
-    backend_name = "fake_athens"  # type: ignore
+    backend_name = "ibm_athens"  # type: ignore
 
 
 class FakeAthens(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeAthens(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_athens.json"  # type: ignore
     props_filename = "props_athens.json"  # type: ignore
     defs_filename = "defs_athens.json"  # type: ignore
-    backend_name = "fake_athens"  # type: ignore
+    backend_name = "ibm_athens"  # type: ignore

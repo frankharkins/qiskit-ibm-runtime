@@ -38,7 +38,7 @@ class FakeParisV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_paris.json"  # type: ignore
     props_filename = "props_paris.json"  # type: ignore
     defs_filename = "defs_paris.json"  # type: ignore
-    backend_name = "fake_paris"  # type: ignore
+    backend_name = "ibm_paris"  # type: ignore
 
 
 class FakeParis(fake_pulse_backend.FakePulseBackend):
@@ -61,4 +61,4 @@ class FakeParis(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_paris.json"  # type: ignore
     props_filename = "props_paris.json"  # type: ignore
     defs_filename = "defs_paris.json"  # type: ignore
-    backend_name = "fake_paris"  # type: ignore
+    backend_name = "ibm_paris"  # type: ignore

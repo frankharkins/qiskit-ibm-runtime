@@ -25,7 +25,7 @@ class FakeLimaV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_lima.json"  # type: ignore
     props_filename = "props_lima.json"  # type: ignore
     defs_filename = "defs_lima.json"  # type: ignore
-    backend_name = "fake_lima"  # type: ignore
+    backend_name = "ibm_lima"  # type: ignore
 
 
 class FakeLima(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeLima(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_lima.json"  # type: ignore
     props_filename = "props_lima.json"  # type: ignore
     defs_filename = "defs_lima.json"  # type: ignore
-    backend_name = "fake_lima"  # type: ignore
+    backend_name = "ibm_lima"  # type: ignore

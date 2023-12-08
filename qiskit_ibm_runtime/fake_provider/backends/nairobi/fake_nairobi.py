@@ -25,7 +25,7 @@ class FakeNairobiV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_nairobi.json"  # type: ignore
     props_filename = "props_nairobi.json"  # type: ignore
     defs_filename = "defs_nairobi.json"  # type: ignore
-    backend_name = "fake_nairobi"  # type: ignore
+    backend_name = "ibm_nairobi"  # type: ignore
 
 
 class FakeNairobi(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeNairobi(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_nairobi.json"  # type: ignore
     props_filename = "props_nairobi.json"  # type: ignore
     defs_filename = "defs_nairobi.json"  # type: ignore
-    backend_name = "fake_nairobi"  # type: ignore
+    backend_name = "ibm_nairobi"  # type: ignore

@@ -25,7 +25,7 @@ class FakeRomeV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_rome.json"  # type: ignore
     props_filename = "props_rome.json"  # type: ignore
     defs_filename = "defs_rome.json"  # type: ignore
-    backend_name = "fake_rome"  # type: ignore
+    backend_name = "ibm_rome"  # type: ignore
 
 
 class FakeRome(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeRome(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_rome.json"  # type: ignore
     props_filename = "props_rome.json"  # type: ignore
     defs_filename = "defs_rome.json"  # type: ignore
-    backend_name = "fake_rome"  # type: ignore
+    backend_name = "ibm_rome"  # type: ignore

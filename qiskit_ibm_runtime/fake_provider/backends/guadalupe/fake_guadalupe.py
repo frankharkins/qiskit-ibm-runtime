@@ -26,7 +26,7 @@ class FakeGuadalupeV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_guadalupe.json"  # type: ignore
     props_filename = "props_guadalupe.json"  # type: ignore
     defs_filename = "defs_guadalupe.json"  # type: ignore
-    backend_name = "fake_guadalupe"  # type: ignore
+    backend_name = "ibm_guadalupe"  # type: ignore
 
 
 class FakeGuadalupe(fake_pulse_backend.FakePulseBackend):
@@ -36,4 +36,4 @@ class FakeGuadalupe(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_guadalupe.json"  # type: ignore
     props_filename = "props_guadalupe.json"  # type: ignore
     defs_filename = "defs_guadalupe.json"  # type: ignore
-    backend_name = "fake_guadalupe"  # type: ignore
+    backend_name = "ibm_guadalupe"  # type: ignore

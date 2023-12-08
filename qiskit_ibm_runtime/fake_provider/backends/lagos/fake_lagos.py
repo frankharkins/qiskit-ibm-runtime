@@ -25,7 +25,7 @@ class FakeLagosV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_lagos.json"  # type: ignore
     props_filename = "props_lagos.json"  # type: ignore
     defs_filename = "defs_lagos.json"  # type: ignore
-    backend_name = "fake_lagos"  # type: ignore
+    backend_name = "ibm_lagos"  # type: ignore
 
 
 class FakeLagos(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeLagos(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_lagos.json"  # type: ignore
     props_filename = "props_lagos.json"  # type: ignore
     defs_filename = "defs_lagos.json"  # type: ignore
-    backend_name = "fake_lagos"  # type: ignore
+    backend_name = "ibm_lagos"  # type: ignore

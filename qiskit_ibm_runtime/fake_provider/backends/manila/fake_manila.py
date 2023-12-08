@@ -25,7 +25,7 @@ class FakeManilaV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_manila.json"  # type: ignore
     props_filename = "props_manila.json"  # type: ignore
     defs_filename = "defs_manila.json"  # type: ignore
-    backend_name = "fake_manila"  # type: ignore
+    backend_name = "ibm_manila"  # type: ignore
 
 
 class FakeManila(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeManila(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_manila.json"  # type: ignore
     props_filename = "props_manila.json"  # type: ignore
     defs_filename = "defs_manila.json"  # type: ignore
-    backend_name = "fake_manila"  # type: ignore
+    backend_name = "ibm_manila"  # type: ignore

@@ -30,7 +30,7 @@ class FakeArmonkV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_armonk.json"  # type: ignore
     props_filename = "props_armonk.json"  # type: ignore
     defs_filename = "defs_armonk.json"  # type: ignore
-    backend_name = "fake_armonk"  # type: ignore
+    backend_name = "ibm_armonk"  # type: ignore
 
 
 class FakeArmonk(fake_pulse_backend.FakePulseBackend):
@@ -45,4 +45,4 @@ class FakeArmonk(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_armonk.json"  # type: ignore
     props_filename = "props_armonk.json"  # type: ignore
     defs_filename = "defs_armonk.json"  # type: ignore
-    backend_name = "fake_armonk"  # type: ignore
+    backend_name = "ibm_armonk"  # type: ignore

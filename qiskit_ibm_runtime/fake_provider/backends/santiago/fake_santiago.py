@@ -25,7 +25,7 @@ class FakeSantiagoV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_santiago.json"  # type: ignore
     props_filename = "props_santiago.json"  # type: ignore
     defs_filename = "defs_santiago.json"  # type: ignore
-    backend_name = "fake_santiago"  # type: ignore
+    backend_name = "ibm_santiago"  # type: ignore
 
 
 class FakeSantiago(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeSantiago(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_santiago.json"  # type: ignore
     props_filename = "props_santiago.json"  # type: ignore
     defs_filename = "defs_santiago.json"  # type: ignore
-    backend_name = "fake_santiago"  # type: ignore
+    backend_name = "ibm_santiago"  # type: ignore

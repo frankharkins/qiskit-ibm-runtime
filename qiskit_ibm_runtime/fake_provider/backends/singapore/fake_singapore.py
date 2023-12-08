@@ -35,7 +35,7 @@ class FakeSingaporeV2(fake_backend.FakeBackendV2):
     dirname = os.path.dirname(__file__)  # type: ignore
     conf_filename = "conf_singapore.json"  # type: ignore
     props_filename = "props_singapore.json"  # type: ignore
-    backend_name = "fake_singapore"  # type: ignore
+    backend_name = "ibm_singapore"  # type: ignore
 
 
 class FakeSingapore(fake_qasm_backend.FakeQasmBackend):
@@ -55,4 +55,4 @@ class FakeSingapore(fake_qasm_backend.FakeQasmBackend):
     dirname = os.path.dirname(__file__)  # type: ignore
     conf_filename = "conf_singapore.json"  # type: ignore
     props_filename = "props_singapore.json"  # type: ignore
-    backend_name = "fake_singapore"  # type: ignore
+    backend_name = "ibm_singapore"  # type: ignore

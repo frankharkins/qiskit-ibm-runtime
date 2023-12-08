@@ -32,7 +32,7 @@ class FakeMelbourneV2(fake_backend.FakeBackendV2):
     dirname = os.path.dirname(__file__)  # type: ignore
     conf_filename = "conf_melbourne.json"  # type: ignore
     props_filename = "props_melbourne.json"  # type: ignore
-    backend_name = "fake_melbourne"  # type: ignore
+    backend_name = "ibm_melbourne"  # type: ignore
 
 
 class FakeMelbourne(FakeBackend):
@@ -69,7 +69,7 @@ class FakeMelbourne(FakeBackend):
         ]
 
         configuration = QasmBackendConfiguration(
-            backend_name="fake_melbourne",
+            backend_name="ibm_melbourne",
             backend_version="0.0.0",
             n_qubits=14,
             basis_gates=["u1", "u2", "u3", "cx", "id"],

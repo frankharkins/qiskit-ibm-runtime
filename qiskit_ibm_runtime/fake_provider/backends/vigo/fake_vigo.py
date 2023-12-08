@@ -31,7 +31,7 @@ class FakeVigoV2(fake_backend.FakeBackendV2):
     dirname = os.path.dirname(__file__)  # type: ignore
     conf_filename = "conf_vigo.json"  # type: ignore
     props_filename = "props_vigo.json"  # type: ignore
-    backend_name = "fake_vigo"  # type: ignore
+    backend_name = "ibm_vigo"  # type: ignore
 
 
 class FakeVigo(fake_qasm_backend.FakeQasmBackend):
@@ -47,4 +47,4 @@ class FakeVigo(fake_qasm_backend.FakeQasmBackend):
     dirname = os.path.dirname(__file__)  # type: ignore
     conf_filename = "conf_vigo.json"  # type: ignore
     props_filename = "props_vigo.json"  # type: ignore
-    backend_name = "fake_vigo"  # type: ignore
+    backend_name = "ibm_vigo"  # type: ignore

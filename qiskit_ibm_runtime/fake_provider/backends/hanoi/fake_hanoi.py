@@ -25,7 +25,7 @@ class FakeHanoiV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_hanoi.json"  # type: ignore
     props_filename = "props_hanoi.json"  # type: ignore
     defs_filename = "defs_hanoi.json"  # type: ignore
-    backend_name = "fake_hanoi"  # type: ignore
+    backend_name = "ibm_hanoi"  # type: ignore
 
 
 class FakeHanoi(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeHanoi(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_hanoi.json"  # type: ignore
     props_filename = "props_hanoi.json"  # type: ignore
     defs_filename = "defs_hanoi.json"  # type: ignore
-    backend_name = "fake_hanoi"  # type: ignore
+    backend_name = "ibm_hanoi"  # type: ignore

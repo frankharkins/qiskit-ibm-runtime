@@ -31,7 +31,7 @@ class FakeBurlingtonV2(fake_backend.FakeBackendV2):
     dirname = os.path.dirname(__file__)  # type: ignore
     conf_filename = "conf_burlington.json"  # type: ignore
     props_filename = "props_burlington.json"  # type: ignore
-    backend_name = "fake_burlington"  # type: ignore
+    backend_name = "ibm_burlington"  # type: ignore
 
 
 class FakeBurlington(fake_qasm_backend.FakeQasmBackend):
@@ -47,4 +47,4 @@ class FakeBurlington(fake_qasm_backend.FakeQasmBackend):
     dirname = os.path.dirname(__file__)  # type: ignore
     conf_filename = "conf_burlington.json"  # type: ignore
     props_filename = "props_burlington.json"  # type: ignore
-    backend_name = "fake_burlington"  # type: ignore
+    backend_name = "ibm_burlington"  # type: ignore

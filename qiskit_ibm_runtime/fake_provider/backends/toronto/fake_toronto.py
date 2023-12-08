@@ -25,7 +25,7 @@ class FakeTorontoV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_toronto.json"  # type: ignore
     props_filename = "props_toronto.json"  # type: ignore
     defs_filename = "defs_toronto.json"  # type: ignore
-    backend_name = "fake_toronto"  # type: ignore
+    backend_name = "ibm_toronto"  # type: ignore
 
 
 class FakeToronto(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeToronto(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_toronto.json"  # type: ignore
     props_filename = "props_toronto.json"  # type: ignore
     defs_filename = "defs_toronto.json"  # type: ignore
-    backend_name = "fake_toronto"  # type: ignore
+    backend_name = "ibm_toronto"  # type: ignore

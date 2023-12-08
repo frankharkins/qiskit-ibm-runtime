@@ -25,7 +25,7 @@ class FakeBogotaV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_bogota.json"  # type: ignore
     props_filename = "props_bogota.json"  # type: ignore
     defs_filename = "defs_bogota.json"  # type: ignore
-    backend_name = "fake_bogota"  # type: ignore
+    backend_name = "ibm_bogota"  # type: ignore
 
 
 class FakeBogota(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeBogota(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_bogota.json"  # type: ignore
     props_filename = "props_bogota.json"  # type: ignore
     defs_filename = "defs_bogota.json"  # type: ignore
-    backend_name = "fake_bogota"  # type: ignore
+    backend_name = "ibm_bogota"  # type: ignore

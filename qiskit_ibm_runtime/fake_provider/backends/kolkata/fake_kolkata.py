@@ -25,7 +25,7 @@ class FakeKolkataV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_kolkata.json"  # type: ignore
     props_filename = "props_kolkata.json"  # type: ignore
     defs_filename = "defs_kolkata.json"  # type: ignore
-    backend_name = "fake_kolkata"  # type: ignore
+    backend_name = "ibm_kolkata"  # type: ignore
 
 
 class FakeKolkata(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeKolkata(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_kolkata.json"  # type: ignore
     props_filename = "props_kolkata.json"  # type: ignore
     defs_filename = "defs_kolkata.json"  # type: ignore
-    backend_name = "fake_kolkata"  # type: ignore
+    backend_name = "ibm_kolkata"  # type: ignore

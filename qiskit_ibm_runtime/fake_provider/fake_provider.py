@@ -69,10 +69,10 @@ class FakeProviderForBackendV2(ProviderV1):
     available in the :mod:`qiskit_ibm_runtime.fake_provider`.
     """
 
-    def get_backend(self, name=None, **kwargs):  # type: ignore
+    def backend(self, name=None, **kwargs):  # type: ignore
         backend = self._backends[0]
         if name:
-            filtered_backends = [backend for backend in self._backends if backend.name() == name]
+            filtered_backends = [backend for backend in self._backends if backend.name == name]
             if not filtered_backends:
                 raise QiskitBackendNotFoundError()
 
@@ -82,6 +82,11 @@ class FakeProviderForBackendV2(ProviderV1):
 
     def backends(self, name=None, **kwargs):  # type: ignore
         return self._backends
+
+    def least_busy(self, min_num_qubits=0, instance=None, **kwargs):
+        for b in self.backends(**kwargs):
+            if b.num_qubits >= min_num_qubits:
+                return b
 
     def __init__(self) -> None:
         self._backends = [

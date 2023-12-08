@@ -25,7 +25,7 @@ class FakeCasablancaV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_casablanca.json"  # type: ignore
     props_filename = "props_casablanca.json"  # type: ignore
     defs_filename = "defs_casablanca.json"  # type: ignore
-    backend_name = "fake_casablanca"  # type: ignore
+    backend_name = "ibm_casablanca"  # type: ignore
 
 
 class FakeCasablanca(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeCasablanca(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_casablanca.json"  # type: ignore
     props_filename = "props_casablanca.json"  # type: ignore
     defs_filename = "defs_casablanca.json"  # type: ignore
-    backend_name = "fake_casablanca"  # type: ignore
+    backend_name = "ibm_casablanca"  # type: ignore

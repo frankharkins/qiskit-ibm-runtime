@@ -25,7 +25,7 @@ class FakeCairoV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_cairo.json"  # type: ignore
     props_filename = "props_cairo.json"  # type: ignore
     defs_filename = "defs_cairo.json"  # type: ignore
-    backend_name = "fake_cairo"  # type: ignore
+    backend_name = "ibm_cairo"  # type: ignore
 
 
 class FakeCairo(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeCairo(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_cairo.json"  # type: ignore
     props_filename = "props_cairo.json"  # type: ignore
     defs_filename = "defs_cairo.json"  # type: ignore
-    backend_name = "fake_cairo"  # type: ignore
+    backend_name = "ibm_cairo"  # type: ignore

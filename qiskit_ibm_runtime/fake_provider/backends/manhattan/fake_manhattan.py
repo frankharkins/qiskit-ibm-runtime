@@ -25,7 +25,7 @@ class FakeManhattanV2(fake_backend.FakeBackendV2):
     conf_filename = "conf_manhattan.json"  # type: ignore
     props_filename = "props_manhattan.json"  # type: ignore
     defs_filename = "defs_manhattan.json"  # type: ignore
-    backend_name = "fake_manhattan"  # type: ignore
+    backend_name = "ibm_manhattan"  # type: ignore
 
 
 class FakeManhattan(fake_pulse_backend.FakePulseBackend):
@@ -35,4 +35,4 @@ class FakeManhattan(fake_pulse_backend.FakePulseBackend):
     conf_filename = "conf_manhattan.json"  # type: ignore
     props_filename = "props_manhattan.json"  # type: ignore
     defs_filename = "defs_manhattan.json"  # type: ignore
-    backend_name = "fake_manhattan"  # type: ignore
+    backend_name = "ibm_manhattan"  # type: ignore
