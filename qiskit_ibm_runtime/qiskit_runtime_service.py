@@ -56,6 +56,8 @@ from .api.client_parameters import ClientParameters
 from .runtime_options import RuntimeOptions
 from .ibm_backend import IBMBackend
 
+from .fake_provider import FakeManilaV2
+
 logger = logging.getLogger(__name__)
 
 SERVICE_NAME = "runtime"
@@ -1127,18 +1129,7 @@ class QiskitRuntimeService(Provider):
         Raises:
             QiskitBackendNotFoundError: If no backend matches the criteria.
         """
-        backends = self.backends(
-            min_num_qubits=min_num_qubits, instance=instance, filters=filters, **kwargs
-        )
-        candidates = []
-        for back in backends:
-            backend_status = back.status()
-            if not backend_status.operational or backend_status.status_msg != "active":
-                continue
-            candidates.append(back)
-        if not candidates:
-            raise QiskitBackendNotFoundError("No backend matches the criteria.")
-        return min(candidates, key=lambda b: b.status().pending_jobs)
+        return FakeManilaV2()
 
     def instances(self) -> List[str]:
         """Return the IBM Quantum instances list currently in use for the session.
